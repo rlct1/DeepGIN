@@ -25,6 +25,19 @@ For more information about the challenge, please visit the github project page p
 </p>
 - Again, each row shows an example of the test results. From left to right: the first column shows different input masked images. The second to the fourth columns display the completed images by DeepFillv1, DeepFillv2, and our DeepGIN. Note that the ground truth images are not provided for self evaluation, hence only qualitative comparisons can be reported here. Please zoom in for a better view to see the details and textures. For example, see the textures of the sky in the third row. If you are interested in the quantitative comparisons, you may search for the challenge report. 
 
+## Citation
+Thanks for visiting our project page, if it is useful, please cite our paper,
+```
+@misc{li2020deepgin,
+    title={DeepGIN: Deep Generative Inpainting Network for Extreme Image Inpainting},
+    author={Chu-Tak Li and Wan-Chi Siu and Zhi-Song Liu and Li-Wen Wang and Daniel Pak-Kong Lun},
+    year={2020},
+    eprint={2008.07173},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
 ## Acknowledgment 
 - Thank you for visiting this project page
 - Our code is developed based on the skeleton of the Pytorch implementation of [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)
